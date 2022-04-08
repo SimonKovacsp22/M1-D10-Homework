@@ -596,3 +596,16 @@ printTitle('19')
 
 /*Write a function called "removeIndex" which receives a number as a parameter and returns the provided movies array without the element in the given position.
 */
+function removeIndex(moviesIndex) {
+    let removedMovies=[]
+     delete movies[moviesIndex]
+     Object.assign(removedMovies,movies)
+     return removedMovies
+     
+
+
+    
+    
+}
+console.log(removeIndex(0))
+printTitle('20')
